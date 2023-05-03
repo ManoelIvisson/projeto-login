@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tela de Login</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <main>
         <section>
             <div id="imagem">
-                <img src="imagens/predio-login.jpg" alt="Imagem ilustrativa">
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-
+                    <input type="email" name="email" id="iemail" placeholder="Seu e-mail">
+                    <input type="password" name="senha" id="isenha" placeholder="Sua senha">
+                    <input  class="butao" type="submit" value="Entrar">
                 </form>
             </div>
         </section>
