@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+main {
+    width: 640px;
+}
+
+div#imagem {
+   
+}
+
+div#formulario {
+    display: inline;
+}
