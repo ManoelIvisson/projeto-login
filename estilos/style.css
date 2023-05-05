@@ -8,6 +8,8 @@
 :root {
     --cor01: #03A696;
     --cor02: #253659;
+    --cor03: #1d2942;
+    --cor04: #557dce;
 }
 
 * {
@@ -21,14 +23,14 @@ body {
 }
 
 main {
-    width: 300px;
-    margin: 75px auto;
+    width: 250px;
+    margin: 50px auto;
     background-color: white;
     border-radius: 30px;
 }
 
 div#imagem {
-    height: 200px;
+    height: 175px;
     background-image: url("../imagens/predio-login.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -44,6 +46,11 @@ div#formulario h1 {
     padding: 10px;
 }
 
+div.fundo {
+    background-color: var(--cor01);
+    margin: 10px;
+}
+
 input {
     margin: 5px;
     padding: 5px;
@@ -51,4 +58,26 @@ input {
 
 input.butao {
     display: block;
+    margin: 5px auto;
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input#entrar {
+    background-color: var(--cor02);
+    color: white;
+}
+
+input#entrar:hover {
+    background-color: var(--cor03);
+}
+
+input#esqueci {
+    border: 2px solid var(--cor02);
+}
+
+input#esqueci:hover {
+    background-color: var(--cor04);
 }
