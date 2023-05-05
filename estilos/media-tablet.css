@@ -1,13 +1,23 @@
 @charset "UTF-8";
 
 main {
-    width: 640px;
+    width: 90vw;
+}
+
+section {
+    height: 320px;
+    margin: 120px auto;
+    overflow: hidden;
 }
 
 div#imagem {
-   
+   float: left;
+   width: 30%;
+   height: 320px;
+   border-radius: 30px 0px 0px 30px;
 }
 
 div#formulario {
-    display: inline;
+   float: right;
+   width: 70%;
 }
