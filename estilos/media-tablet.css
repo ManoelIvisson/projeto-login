@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+    background-image: linear-gradient(var(--cor01), var(--cor02));
+}
+
 main {
     width: 90vw;
 }
