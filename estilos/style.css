@@ -9,7 +9,7 @@
     --cor01: #03A696;
     --cor02: #253659;
     --cor03: #1d2942;
-    --cor04: #557dce;
+    --cor04: #4667a8;
 }
 
 * {
@@ -114,6 +114,8 @@ a#esqueci {
     border: 2px solid var(--cor02);
     text-align: center;
     text-decoration: none;
+    color: #1d2942;
+    height: 42px;
 }
 
 a#esqueci > i {
