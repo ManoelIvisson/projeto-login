@@ -65,13 +65,17 @@ div#formulario h1 {
     padding: 10px;
 }
 
+div#formulario p {
+    font-size: 0.8em;
+}
+
 div.fundo {
     background-color: var(--cor01);
     margin: 5px;
     border-radius: 5px;
 }
 
-div.fundo > i {
+div.fundo  i {
     color: white;
 }
 

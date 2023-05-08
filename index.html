@@ -17,14 +17,14 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
                     <div class="fundo">
-                        <i class="material-symbols-outlined">person</i>
-                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail">
+                        <label for="iemail"><i class="material-symbols-outlined">person</i></label>
+                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
                     </div>
                     <div class="fundo">
-                        <i class="material-symbols-outlined">key</i>
-                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" minlength="8">
+                        <label for="isenha"><i class="material-symbols-outlined">key</i></label>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" minlength="8" autocomplete="current-password" required maxlength="20">
                     </div>
                     <input  id="entrar" class="butao" type="submit" value="Entrar">
                 </form>
