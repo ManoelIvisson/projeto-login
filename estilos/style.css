@@ -71,11 +71,12 @@ div#formulario p {
 
 div.fundo {
     background-color: var(--cor01);
-    margin: 5px;
+    margin: 5px 0px;
     border-radius: 5px;
+    height: 40px;
 }
 
-div.fundo  i {
+div.fundo i {
     color: white;
 }
 
@@ -124,4 +125,5 @@ a#esqueci > i {
 
 a#esqueci:hover {
     background-color: var(--cor04);
+    color: white;
 }
