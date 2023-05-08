@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
-body{
+body {
     background-image: linear-gradient(var(--cor01), var(--cor02));
 }
 
 section {
-    width: 80vw;
+    width: 990px;
 }
 
 div#imagem {
-   float: left;
-   width: 30%;
-   height: 100%;
+    float: left;
+    width: 50%;
+    height: 100%;
 }
 
 div#formulario {
-   float: right;
-   width: 70%;
+    float: right;
+    width: 50%;
 }
