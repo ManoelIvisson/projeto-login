@@ -85,12 +85,12 @@ div.fundo > input {
     border-radius: 5px;
 }
 
-input {
+input, a {
     margin: 5px;
     padding: 0px 5px;
 }
 
-input.butao {
+input.butao, a {
     display: block;
     margin: 5px auto;
     width: 100%;
@@ -110,10 +110,16 @@ input#entrar:hover {
     background-color: var(--cor03);
 }
 
-input#esqueci {
+a#esqueci {
     border: 2px solid var(--cor02);
+    text-align: center;
+    text-decoration: none;
 }
 
-input#esqueci:hover {
+a#esqueci > i {
+    font-size: 0.8em;
+}
+
+a#esqueci:hover {
     background-color: var(--cor04);
 }
