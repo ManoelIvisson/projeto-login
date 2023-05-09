@@ -81,9 +81,10 @@ div.fundo i {
 }
 
 div.fundo > input {
-    height: 30px;
+    height: 80%;
     border: none;
     border-radius: 5px;
+    display: inline;
 }
 
 input, a {
